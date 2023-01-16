@@ -15,6 +15,9 @@ const getProof = (address) => {
     const leaf = keccak256(address);
     const proof = merkleTree.getHexProof(leaf);
     console.log("PROOF", proof);
+
+    const root = merkleTree.getHexRoot();
+    console.log("root", root);
     return proof;
 };
 
