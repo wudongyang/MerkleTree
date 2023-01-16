@@ -10,3 +10,5 @@ npm install keccak256
 # run 
 node generateProof.js
 ```
+
+合约地址：0x77372a4cc66063575b05b44481f059be356964a4
